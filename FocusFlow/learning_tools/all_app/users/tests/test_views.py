@@ -295,4 +295,4 @@ class RegisterUserTest(TestCase):
         mock_flashcard.objects.create.assert_called_once()
         mock_habit.objects.create.assert_called_once()
         mock_pomodoro.objects.create.assert_called_once()
-        mock_calendar.objects.create.assert_called_once()
+        mock_calendar.objects.create.assert_called_once()#321
